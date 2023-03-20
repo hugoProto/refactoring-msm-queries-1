@@ -59,15 +59,15 @@
 <table border="1">
   <tr>
     <th>
-      ID
+      Id
     </th>
 
     <th>
-      Image
+      Image 
     </th>
 
     <th>
-      Title
+      Title 
     </th>
 
     <th>
@@ -88,7 +88,7 @@
   
   <%# films = matching_movies.order({ :year => :asc }) %>
 
-  <% @the_director.films.each do |a_movie| %>
+  <% @the_director.filmography.each do |a_movie| %>
   <tr>
     <td>
       <%= a_movie.id %>
